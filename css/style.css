@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: #065488;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container{
+    width: 300px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: block;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 3px 2px 5px 2px #000000; 
+    box-shadow: 3px 2px 5px 2px #000000;
+}
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.6rem;
+}
+.notification{
+    width: 300px;
+    margin-left: -15px;
+    background-color: #f8d7da;
+    display: none;
+    border-radius: 5px;
+}
+.notification p{
+    color: #721c24;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+.weather-container{
+    margin-left: -15px;
+    width: 300px;
+    height: 380px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+.temperature-value{
+    width: 300px;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+}
+.temperature-description{
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.location{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.content .form-control{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.content .btn{
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.content .btn:hover{
+    color: #fff;
+    background-color: #000;
+}
+.content .btn:active {
+    background-color: #000000;
+    box-shadow: 0 1px rgb(255, 255, 255);
+    transform: translateX(1px);
+  }
+  .assignature{
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 10px;
+  }
+  .assignature a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .assignature a:hover{
+      color: #000;
+  }
